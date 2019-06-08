@@ -4,6 +4,7 @@ import factoryAbstractExcerciseCars.SteeringWheelPosition;
 
 public class BMW extends Car {
     private BMWModel bmwModel;
+    private int ttt;
 
     public BMW(int yearOfProduction, SteeringWheelPosition steeringWheelPosition, BMWModel bmwModel) {
         super(yearOfProduction, steeringWheelPosition);
